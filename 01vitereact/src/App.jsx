@@ -1,7 +1,13 @@
 import Home from "./Home";
 
 function App() {
-  return <Home />;
+  const username = "Ajay Bhuj";
+  return (
+    <>
+      <h1>hello {username}</h1>
+      <Home />;
+    </>
+  );
 }
 
 export default App;
